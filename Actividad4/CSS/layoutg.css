@@ -1,0 +1,68 @@
+/* Gaming Theme */
+body {
+    background-color: #1a1a1a; /* Dark grey background */
+    color: #e0e0e0; /* Light grey text */
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333333; /* Darker grey */
+    padding: 20px;
+    text-align: center;
+    border-bottom: 4px solid #ff6600; /* Orange accent */
+}
+
+h1 {
+    color: #ff6600; /* Orange for headings */
+    font-size: 2.5em;
+    text-transform: uppercase;
+}
+
+h2 {
+    color: #ff6600; /* Orange for subheadings */
+    font-size: 1.8em;
+}
+
+a {
+    color: #ff6600; /* Orange for links */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ff3300; /* Darker orange on hover */
+}
+
+button {
+    background-color: #ff6600; /* Orange buttons */
+    color: #ffffff; /* White text */
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #ff3300; /* Darker orange on hover */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.card {
+    background-color: #262626; /* Dark grey cards */
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.card:hover {
+    transform: scale(1.02);
+    transition: transform 0.3s ease;
+}
