@@ -5,8 +5,8 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="C:\Users\PC DPC POLAR\Documents\GitHub\ProgramacionParaInternet\Actividad4\CSS\layoutp.css">
-    <link rel="icon" href="C:\Users\PC DPC POLAR\Documents\GitHub\ProgramacionParaInternet\Actividad4\img\favicon2.ico">
+    <link rel="stylesheet" type="text/css" href="CSS\layoutp.css">
+    <link rel="icon" href="img\favicon2.ico">
     <title>OmarSM</title>
 </head>
 <body>
@@ -21,21 +21,21 @@
     </header>
 
     <main>
-        <section id="linkedin">
+        <div id="linkedin">
             <!-- Información de contacto en LikedIn -->
             <h2>Conectemos profesionalmente</h2>
             <a target="_blank" href="https://www.linkedin.com/in/omar-isaac-serrano-mart%C3%ADnez-8b07871a8/">LinkedIn</a>
-        </section>
+        </div>
             <!-- Información de estudios -->
-        <section id="sobre-mi">
+        <div id="sobre-mi">
             <h2>Información Profesional</h2>
             <p><strong>Especialidad:</strong> <em>Desarrollo Web y Ciberseguridad</em></p>
             <p>Estudiante de Ingeniería en Tecnologías de la Información y Negocios Digitales</p>
             <p>Apasionado de la Ciberseguridad</p>
             <img src="C:\Users\PC DPC POLAR\Documents\GitHub\ProgramacionParaInternet\Actividad4\img\mayab.jpg" alt="Anáhuac Mayab" width="600">
-        </section>
+        </div>
             <!-- Información de Proyectos destacados -->
-        <section id="proyectos">
+        <div id="proyectos">
             <h2>Proyectos Destacados</h2>
             <p>Curso de Hacking ético "Hacking Day" de la empresa White Suit Hacking</p>
             <img src="C:\Users\PC DPC POLAR\Documents\GitHub\ProgramacionParaInternet\Actividad4\img\327305874_1110931419546268_6337719904409860984_n.jpg" alt="White Suit Hacking" width="200">
@@ -43,11 +43,11 @@
             <p>Top 10 en Robótica en el PIBA (Premio Internacional del Bachillerato Anáhuac)</p>
             <img src="C:\Users\PC DPC POLAR\Documents\GitHub\ProgramacionParaInternet\Actividad4\img\DTwLvYFVMAEbZe0.jpg" alt="PIBA" width="200">
             <br>
-        </section>
-
-        <section id="formularios">
+        </div>
+    <div id="container">
+        <div class="formularios" id="formularios">
+            <div class="formularioCorreo"></div>
             <h2>Contacto directo</h2>
-            
             <!-- Formulario para contactar de manera más directa, vía correo -->
             <form action="#" method="post">
                 <h3>Formulario de Contacto vía correo electrónico</h3>  
@@ -57,7 +57,7 @@
                 <input type="text" placeholder="Inserte su nombre">
                 <button type="submit">Enviar</button>
             </form>
-
+            </div>
             <!-- Formulario para contactar de manera más directa, vía teléfono -->
             <form action="#" method="post">
                 <h3>Formulario de Contacto vía Teléfono celular</h3>
@@ -76,11 +76,13 @@
                     <option value="Ciberseguridad">Ciberseguridad</option>
                 </select>
             </form>
-        </section>
+        </div>
+    </div>
     </main>
             <!-- Footer, con derechos reservados -->
     <footer>
-        <p>© 2024 Portafolio OmarISM. Todos los derechos reservados.</p>
+        <p>© 2024 Portafolio OmarIsaacSM. Todos los derechos reservados.</p>
     </footer>
+    <script src="scriptPortafolio.js"></script>
 </body>
 </html>
