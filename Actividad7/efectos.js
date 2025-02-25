@@ -1,9 +1,9 @@
-$(document).ready(function(){
+/*$(document).ready(function(){
     function efecto(){
         $('.caja1').hide(3000);
     }
     efecto();
-});
+});*/
 
 $(document).ready(function(){
     function efecto(){
@@ -12,7 +12,7 @@ $(document).ready(function(){
     efecto();
 });
 
-$(document).ready(function(){
+/*$(document).ready(function(){
     function efecto(){
         $('.caja1').hide();
         $('.caja1').fadeIn(4000);
@@ -49,4 +49,4 @@ $(document).ready(function(){
         $('.caja1').slideDown(2000);
     }
     efecto();
-});
+});*/
