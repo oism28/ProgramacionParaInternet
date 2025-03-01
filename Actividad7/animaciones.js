@@ -1,4 +1,4 @@
-$(document).ready(function(){
+/*$(document).ready(function(){
     // $(selector).animate({parametros}, velocidad, callback);
     $('#boton').on('click', function(){
         $('#caja').animate({
@@ -45,7 +45,7 @@ $(document).ready(function(){
         $('#caja').animate({
             width: '+=50px'
         },1000, function(){
-            //alert ('Fin de la animación');
+            alert ('Fin de la animación');
         });
     });
 });
@@ -56,7 +56,7 @@ $(document).ready(function(){
         $('#caja').animate({
             margin: '+=20px'
         },1000, function(){
-        //alert ('Fin de la animación');
+        alert ('Fin de la animación');
         });
     });
 });
@@ -71,3 +71,28 @@ $(document).ready(function(){
         });
     });
 });
+
+$(document).ready(function(){
+    // $(selector).animate({parametros}, velocidad,callback);
+    $('#boton').on('click', function(){
+        $('#caja').animate({},500, function(){
+            //alert ('Fin de la animación');
+            });
+            // Animando el color con Animaciones en CSS3
+            $('#caja').addClass('animacion');
+        });
+    });*/
+
+$(document).ready(function(){
+    // $(selector).animate({parametros}, velocidad,callback);
+    $('#boton').on('click', function(){
+        $('#caja').animate({
+            marginLeft: '+=40px'
+        },500, function(){
+            //alert ('Fin de la animación');
+            });
+            $('.caja').animate({
+                marginLeft: '-=40px'
+            },500);
+        });
+    });
