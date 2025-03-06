@@ -1,4 +1,4 @@
-/*$(document).ready(function(){
+$(document).ready(function(){
     // $(selector).animate({parametros}, velocidad, callback);
     $('#boton').on('click', function(){
         $('#caja').animate({
@@ -81,7 +81,7 @@ $(document).ready(function(){
             // Animando el color con Animaciones en CSS3
             $('#caja').addClass('animacion');
         });
-    });*/
+    });
 
 $(document).ready(function(){
     // $(selector).animate({parametros}, velocidad,callback);

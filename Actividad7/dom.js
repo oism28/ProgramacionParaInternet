@@ -1,4 +1,4 @@
-/*$(document).ready(function(){ 
+$(document).ready(function(){ 
     $('#tercera').parent().css({background: '#1b3d82' });
 });
 
@@ -62,7 +62,7 @@ $(document).ready(function(){
     $('.caja').not('#tercera').css({
         background: '#9A2EFE'
     });
-});*/
+});
 
 $(document).ready(function(){   
     $('.caja').not('#tercera').css({

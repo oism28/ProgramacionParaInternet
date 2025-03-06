@@ -1,4 +1,4 @@
-/*$(document).ready(function(){
+$(document).ready(function(){
     var boton = $('#boton');
     boton.on('click', function(){document.body.style.background = '#000'   //javascript
     });
@@ -23,7 +23,7 @@ $(document).ready(function(){
         boton.off('click');
         alert ('ha quedado desactivado el botón "Ejecutar"')
     });
-});*/
+});
 
 $(document).ready(function(){
     $('a').on('click', function(e){
