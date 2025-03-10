@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Café Aroma</title>
+    <!-- jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- bxSlider CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.css">
+    <!-- bxSlider JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.js"></script>
+    <!-- Font Awesome para iconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="icon" href="../imagenes/favicon.ico?v=2">
+</head>
+
+<body>
+    <!-- Encabezado -->
+    <header>
+        <div class="container header-content">
+            <a href="#" class="logo">Café Aroma</a>
+            <div class="date-time" id="current-date-time"></div>
+        </div>
+    </header>
+    
+    <!-- Menú de navegación -->
+    <nav>
+        <div class="container">
+            <ul class="menu">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="menu.html">Menú</a></li>
+                <li><a href="aboutUs.html">Nosotros</a></li>
+                <li><a href="contact.html">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+
+
+ <!-- Contenido principal -->
+<section id="menu" class="menu-section">
+
+        <div class="menu-container">
+            <!-- Ejemplo de Bebida -->
+            <div class="menu-item cafe">
+                <img src="../imagenes/espresso.png" alt="Espresso">
+                <h3>Espresso</h3>
+                <p>Café intenso y aromático en su forma más pura.</p>
+                <span class="precio">$40 MXN</span>
+            </div>
+            
+            <div class="menu-item cafe">
+                <img src="../imagenes/capuccino.jpg" alt="Capuchino">
+                <h3>Capuchino</h3>
+                <p>Espresso con espuma de leche y un toque de canela.</p>
+                <span class="precio">$55 MXN</span>
+            </div>
+            
+            <div class="menu-item te">
+                <img src="../imagenes/teverde.webp" alt="Té Verde">
+                <h3>Té Verde</h3>
+                <p>Refrescante y antioxidante, servido caliente o frío.</p>
+                <span class="precio">$45 MXN</span>
+            </div>
+            
+            <div class="menu-item frappe">
+                <img src="../imagenes/frappe.jpeg" alt="Frappé de Chocolate">
+                <h3>Frappé de Chocolate</h3>
+                <p>Delicioso batido frío con chocolate y crema batida.</p>
+                <span class="precio">$65 MXN</span>
+            </div>
+            
+            <div class="menu-item especial">
+                <img src="../imagenes/matcha.avif" alt="Matcha Latte">
+                <h3>Matcha Latte</h3>
+                <p>Leche cremosa combinada con matcha de alta calidad.</p>
+                <span class="precio">$60 MXN</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Pie de página -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <h3>Café Aroma</h3>
+                <p>Experiencia única en cada taza</p>
+            </div>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+            <a href="#" class="back-to-top" id="back-to-top">Volver Arriba</a>
+            <div class="copyright">
+                <p>&copy; 2025 Café Aroma. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <style>
+        .menu-section {
+            padding: 50px 0;
+            margin-top: 150px;
+            background: #f5f0eb;
+        }
+        .menu-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .menu-item {
+            background: white;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            width: 250px;
+            transition: transform 0.3s;
+        }
+        .menu-item img {
+            width: 100%;
+            height: 180px;
+            border-radius: 10px;
+        }
+        .menu-item h3 {
+            margin: 10px 0;
+            color: #3a2c1d;
+        }
+        .menu-item p {
+            font-size: 14px;
+            color: #555;
+        }
+        .precio {
+            font-weight: bold;
+            color: #a0522d;
+            font-size: 18px;
+        }
+        .menu-item:hover {
+            transform: scale(1.05);
+        }
+        .menu-categorias {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .categoria-btn {
+            background: #8b5e3c;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            margin: 5px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .categoria-btn:hover {
+            background: #6d4428;
+        }
+    </style>
+    
+    <!-- Scripts -->
+    <script src="../script.js"></script>
+</body>
+</html>
+

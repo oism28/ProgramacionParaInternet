@@ -12,8 +12,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.js"></script>
     <!-- Font Awesome para iconos -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="icon" href="../imagenes/favicon.ico">
 </head>
 <body>
     <!-- Encabezado -->
@@ -28,8 +28,8 @@
     <nav>
         <div class="container">
             <ul class="menu">
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="#menu">Menú</a></li>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="menu.html">Menú</a></li>
                 <li><a href="aboutUs.html">Nosotros</a></li>
                 <li><a href="contact.html">Contacto</a></li>
             </ul>
@@ -39,36 +39,36 @@
     <!-- Contenido principal -->
     <div class="main-content">
         <div class="container">
-
-            <section id="nosotros" class="contact-section">
+            <section id="inicio" class="slider-container">
+                <div class="slider">
+                    <div><img src="../imagenes/cafeteria-tray-with-homemade-scones-and-croissants-6W85B5X-1-scaled.jpg" alt="Café Aroma - Ambiente"></div>
+                    <div><img src="../imagenes/Como-decorar-una-cafeteria-pequena-con-poco-dinero.jpg" alt="Café Aroma - Bebidas"></div>
+                    <div><img src="../imagenes/imagenes_Mesa_de_trabajo_1.jpg" alt="Café Aroma - Postres"></div>
+                    <div><img src="../imagenes/vence.jpg.jpg" alt="Café Aroma - Barista"></div>
+                </div>
+            </section>
+            
+            <section id="menu" class="info-section">
                 <div class="container">
-                    <h2 style="text-align: center; margin-bottom: 30px; color: #3a2c1d;">Contáctanos</h2>
-                    <div class="contact-container">
-                        <div class="contact-box">
-                            <form action="#" method="post">
-                                <h3>Contacto vía Teléfono celular</h3>
-                                <label for="correo"><strong>Teléfono:</strong></label> 
-                                <input type="text" placeholder="(000)000-0000">
-                                <label for="nombre"><strong>Nombre:</strong></label>  
-                                <input type="text" placeholder="Inserte su nombre">
-                                <button type="submit">Enviar</button>
-                            </form>
+                    <h2 style="text-align: center; margin-bottom: 30px; color: #3a2c1d;">Nuestra Especialidad</h2>
+                    <div class="info-container">
+                        <div class="info-box">
+                            <h3>Café de Especialidad</h3>
+                            <p>Nuestro café es seleccionado cuidadosamente de las mejores regiones del mundo. 
+                                Trabajamos directamente con productores que practican técnicas sostenibles y éticas.</p>
+                            <p>Tostamos nuestros granos en pequeños lotes para garantizar la máxima frescura y sabor.</p>
                         </div>
-                        <div class="contact-box">
-                            <form action="#" method="post">
-                                <h3>Contacto vía correo electrónico</h3>  
-                                <label for="correo"><strong>Correo:</strong></label>  
-                                <input type="text" placeholder="correo@mail.com">
-                                <label for="nombre"><strong>Nombre:</strong></label>  
-                                <input type="text" placeholder="Inserte su nombre">
-                                <button type="submit">Enviar</button>
-                            </form>
+                        <div class="info-box">
+                            <h3>Repostería Artesanal</h3>
+                            <p>Complementa tu experiencia de café con nuestras delicias caseras. 
+                                Todos nuestros postres son elaborados diariamente con ingredientes frescos y de alta calidad.</p>
+                            <p>Contamos con opciones tradicionales y también alternativas veganas y sin gluten.</p>
                         </div>
                     </div>
                 </div>
             </section>
             
-            <section id="horarios" class="info-section">
+            <section id="nosotros" class="info-section">
                 <div class="container">
                     <h2 style="text-align: center; margin-bottom: 30px; color: #3a2c1d;">Horarios y Ubicación</h2>
                     <div class="info-container">
@@ -125,6 +125,6 @@
     </footer>
     
     <!-- Scripts -->
-    <script src="script.js"></script>
+    <script src="../script.js"></script>
 </body>
 </html>
