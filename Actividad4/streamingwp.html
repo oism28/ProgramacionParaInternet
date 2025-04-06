@@ -1,17 +1,19 @@
 <!DOCTYPE html>
-    <!-- Esta es una página web de mis hobbys -->
+<!-- Esta es una página web de mis hobbys -->
 <html lang="es">
     <!-- Información general del head -->
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Se mantuvo el CSS para agregarlo después -->
     <link rel="stylesheet" type="text/css" href="CSS\layoutg.css">
     <link rel="icon" href="img\favicon2.ico">
     <title>0m1_28</title>
 </head>
 <body>
-    <header>
+    <header class="container py-3">
         <!-- Este es para navegar entre páginas del sitio, una destinada a mis actividades del timepo libre y otra a modo de CV con fines de búsqueda de empleo -->
         <nav>
             <a href="streamingwp.html">Streaming</a> 
@@ -19,36 +21,108 @@
         </nav>
         <!-- Estructura del cuerpo -->
         <h1>Bienvenidos sean todos</h1>
+            <div id="navbarHeader">
+              <div class="container">
+                <div class="row">
+                  <div class="col-sm-8 col-md-7 py-4">
+                    <h4>About</h4>
+                    <p class="text-body-secondary">Mi página de hobbys como lo son el streaming y los videojuegos.</p>
+                  </div>
+                  <div class="col-sm-4 offset-md-1 py-4">
+                    <h4>Contact</h4>
+                    <ul class="list-unstyled">
+                      <li><a href="https://x.com/0m1_28" class="text-white">Follow on Twitter</a></li>
+                      <li><a href="https://www.facebook.com/oism28/" class="text-white">Like on Facebook</a></li>
+                      <li><a href="oism28@hotmail.com" class="text-white">Email me</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div>
+            </div>
     </header>
 
-    <main>
-        <div id="redes-sociales">
+    <main class="container">
+        <div id="redes-sociales" class="mb-4">
             <!-- Información de contacto, redes sociales -->
             <h2>Mis redes:</h2>
             <ul>
                 <li><a target="_blank" href="https://twitch.tv/0m1_28">Twitch</a></li>
                 <li><a target="_blank" href="https://www.youtube.com/channel/UC5zgzXSge7YcnEQhuN1I-Mw">YouTube</a></li>
-                <li><a target="_blank" href="https://x.com/0m1_28">Twitter</a></li>
             </ul>
         </div>
-            <!-- Información personal, mi afición a los videojuegos y más -->
-        <div id="informacion-personal">
+        <!-- Información personal, mi afición a los videojuegos y más -->
+        <div id="informacion-personal" class="mb-4">
             <h2>Sobre mí</h2>
             <p><strong>Nombre:</strong> <em>Omar Isaac Serrano Martínez</em></p>
             <p>Estudiante de Ingeniería en Tecnologías de la Información y Negocios Digitales, fan de los videojuegos principalmente los FPS</p>
             <p>Jugador para el equipo de Valorant de la Universidad Anáhuac Mayab (ANM)</p>
-            <img src="img\Omar Serrano Martinez.JPG" alt="ANM 0m1_28 2024" width="150">
         </div>
-            <!-- Un poco de Contenido multimedia para hacerlo más atractivo -->
-        <div id="galeria">
-            <h2>Mi contenido destacado</h2>
-            <video src="C:\Users\PC DPC POLAR\Documents\GitHub\ProgramacionParaInternet\Actividad4\vid\tiktok2nov2024.mov" type="video/mov" alt="Highlights1" width="200">
-            <br>
+        
+        <section class="py-4 text-center">
+            <div class="row">
+                <div class="col-lg-6 col-md-8 mx-auto">
+                    <h2>Mi contenido destacado</h2>
+                    <p class="lead text-body-secondary">Un poco de lo que soy y lo que hago en este mundo.</p>
+                </div>
+            </div>
+        </section>
+            
+        <div class="album py-3 bg-body-tertiary">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card shadow-sm h-100">
+                        <video class="card-img-top" src="img\tikitokirandom.mov" type="video/mov" controls></video>
+                        <div class="card-body">
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm h-100">
+                        <img class="card-img-top" src="img\WhatsApp Image 2025-03-23 at 21.37.33.jpeg" alt="ANM 0m1_28 2024">
+                        <div class="card-body">
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm h-100">
+                        <img class="card-img-top" src="img\Omar Serrano Martinez.JPG" alt="ANM 0m1_28 2024">
+                        <div class="card-body">
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </main>
-            <!-- Footer, con derechos reservados -->
-    <footer>
+    
+    <!-- Footer, con derechos reservados -->
+    <footer class="container py-3 mt-4">
         <p>© 2024 0m1_28. Todos los derechos reservados.</p>
     </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
